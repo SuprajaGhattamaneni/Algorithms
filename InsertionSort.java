@@ -5,7 +5,6 @@ import java.util.Scanner;
 public class InsertionSort {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter number of digits");
 		int n = sc.nextInt();
@@ -26,7 +25,6 @@ public class InsertionSort {
 					arr[i] = temp;
 					i--;
 				}
-				//arr[i] = key;
 			}
 		}
 
